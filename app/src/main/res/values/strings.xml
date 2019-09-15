@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Texty Mood</string>
+    <string name="_17_36">17:36</string>
+    <string name="hello">Hello</string>
+    <string name="calendar">Calendar</string>
+    <string name="_17">17</string>
+    <string name="may">May</string>
+    <string name="insert_your_pin">Insert Your Pin</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="todo1">TODO</string>
+    <string name="very_sad">Very Sad</string>
+    <string name="sad">Sad</string>
+    <string name="netral">Netral</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="_17_may">17 May</string>
+    <string name="happy">Happy</string>
+    <string name="verry_happy">Verry Happy</string>
+    <string name="how_is_your_feeling">How is your feeling</string>
+    <string name="todo8">TODO</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_contoh">contohActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

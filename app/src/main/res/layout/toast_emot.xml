@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="How is your feeling"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/a1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="feel1"
+            android:background="@drawable/sgthapy"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/a2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="feel2"
+            android:background="@drawable/hepy"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/a3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="feel3"
+            android:background="@drawable/netral"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="50dp"
+            android:id="@+id/a4"
+            android:layout_height="50dp"
+            android:onClick="feel4"
+            android:background="@drawable/sad"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/a5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="feel5"
+            android:background="@drawable/kasian"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detailFeel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Very Happy"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Happy"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:text="Neutral"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:text="Sad"
+            android:textSize="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="Very Sad"
+            android:textSize="11dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

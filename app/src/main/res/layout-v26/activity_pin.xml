@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginVertical="60sp"
+        android:text="Insert Your Pin"
+        android:textColor="#464555"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginHorizontal="93dp"
+        android:layout_marginVertical="130sp"
+        android:drawableStart="@drawable/circle"
+        android:textColor="#464555"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginHorizontal="138dp"
+        android:layout_marginVertical="130sp"
+        android:drawableStart="@drawable/circle"
+        android:textColor="#464555"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginHorizontal="183dp"
+        android:layout_marginVertical="130sp"
+        android:drawableStart="@drawable/circle"
+        android:textColor="#464555"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="230dp"
+        android:layout_marginVertical="130sp"
+        android:drawableStart="@drawable/circle"
+        android:textColor="#434343"
+        android:textSize="30sp" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="412dp"
+        android:layout_height="321dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:cardBackgroundColor="#464555"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="168dp">
+
+        <TextView
+            android:id="@+id/b1"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="92dp"
+            android:layout_marginVertical="40dp"
+            android:text=" 1"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b2"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="168.5sp"
+            android:layout_marginVertical="40sp"
+            android:text=" 2"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b3"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="245sp"
+            android:layout_marginVertical="40sp"
+            android:text=" 3"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b4"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="92sp"
+            android:layout_marginVertical="115sp"
+            android:text=" 4"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b5"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="168.5sp"
+            android:layout_marginVertical="115sp"
+            android:text=" 5"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b6"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="245sp"
+            android:layout_marginVertical="115sp"
+            android:text=" 6"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b7"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="92sp"
+            android:layout_marginVertical="190sp"
+            android:text=" 7"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b8"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="168.5sp"
+            android:layout_marginVertical="190sp"
+            android:text=" 8"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b9"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="245sp"
+            android:layout_marginVertical="190sp"
+            android:text=" 9"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/bclear"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="95sp"
+            android:layout_marginVertical="255sp"
+            android:drawableStart="@drawable/clear"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/b0"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="168.5sp"
+            android:layout_marginVertical="255sp"
+            android:text=" 0"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/brewind"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="246sp"
+            android:layout_marginVertical="255sp"
+            android:drawableStart="@drawable/ic_backspace_black_24dp"
+            android:textColor="#F0F2F0"
+            android:textSize="30sp"
+            android:visibility="visible" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
